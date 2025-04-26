@@ -40,3 +40,7 @@ function merge(left: number[], right: number[]): number[] {
 const array = [5, 3, 8, 1, 2, 7, 5];
 const sortedArray = mergeSort(array);
 console.log(sortedArray);
+
+// 好きな理由
+// マージソートは、データ量が多くなっても計算量が安定してO(n log n)に抑えられる点が好きです。
+// また、同じ値同士の順番を守る「安定ソート」であるため、信頼して使いやすいと感じています。
