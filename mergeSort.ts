@@ -1,3 +1,5 @@
+// マージソートを実装したプログラム
+
 function mergeSort(arr: number[]): number[] {
   return mergeSortInternal(arr.slice());
 }

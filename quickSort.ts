@@ -1,3 +1,5 @@
+// クイックソートを実装したプログラム
+
 function quickSort(arr: number[]): number[] {
   return quicksortImpl(arr.slice(), 0, arr.length - 1);
 }
